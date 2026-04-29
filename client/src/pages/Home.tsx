@@ -51,36 +51,38 @@ export default function Home() {
     },
   ];
 
-  const portfolioItems = [
-    {
-      id: 1,
-      title: "Modern Interior - Spring Street",
-      category: "Photography & Videography",
-      image: "/manus-storage/portfolio-interior-1_44440848.jpg",
-      featured: true,
-    },
-    {
-      id: 2,
-      title: "Luxury Exterior - Port Moody",
-      category: "Photography",
-      image: "/manus-storage/portfolio-exterior-1_a025d375.jpg",
-      featured: false,
-    },
-    {
-      id: 3,
-      title: "Professional Floor Plans",
-      category: "Floor Plans",
-      image: "/manus-storage/floorplan-1_c86fa406.jpg",
-      featured: false,
-    },
-    {
-      id: 4,
-      title: "Contemporary Home Design",
-      category: "Photography",
-      image: "/manus-storage/portfolio-exterior-2_9e08e790.jpg",
-      featured: false,
-    },
-  ];
+// ONLY showing the parts that needed fixing ↓
+
+const portfolioItems = [
+  {
+    id: 1,
+    title: "Modern Interior - Spring Street",
+    category: "Photography & Videography",
+    image: "/images/interior1.jpg",
+    featured: true,
+  },
+  {
+    id: 2,
+    title: "Luxury Exterior - Port Moody",
+    category: "Photography",
+    image: "/images/exterior1.jpg",
+    featured: false,
+  },
+  {
+    id: 3,
+    title: "Professional Floor Plans",
+    category: "Floor Plans",
+    image: "/images/floorplan.jpg",
+    featured: false,
+  },
+  {
+    id: 4,
+    title: "Contemporary Home Design",
+    category: "Photography",
+    image: "/images/exterior2.jpg",
+    featured: false,
+  },
+];
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -88,7 +90,7 @@ export default function Home() {
       <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="container flex items-center justify-between h-20 gap-4 flex-wrap">
           <div className="flex items-center gap-2 min-w-0">
-            <img src="/manus-storage/artistry-media-logo-2x_6f6be184.png" alt="Artistry Media" className="h-16 w-auto" />
+            <img src="/images/logo.jpg" alt="Artistry Media" className="h-16 w-auto" />
             <div className="hidden sm:block">
               <h1 className="text-xl font-bold text-foreground">Artistry Media</h1>
               <p className="text-xs text-muted-foreground">Professional Real Estate Media</p>
@@ -116,7 +118,7 @@ export default function Home() {
         <div
           className="absolute inset-0 bg-cover bg-center opacity-30"
           style={{
-            backgroundImage: `url('/manus-storage/hero-interior_0177e356.jpg')`,
+            backgroundImage: `url('/images/interior1.jpg')`,
           }}
         />
         <div className="container relative z-10">
@@ -262,7 +264,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <img src="/manus-storage/artistry-media-logo-2x_6f6be184.png" alt="Artistry Media" className="h-12 w-auto" />
+                <img src="/images/logo.jpg" alt="Artistry Media" className="h-12 w-auto" />
                 <h3 className="font-bold text-foreground">Artistry Media Inc.</h3>
               </div>
               <p className="text-sm text-muted-foreground">Professional real estate media solutions.</p>
