@@ -18,7 +18,7 @@ export default function Portfolio() {
       title: "Modern Interior - Spring Street, Port Moody",
       category: "Photography & Videography",
       description: "A beautifully designed modern interior space featuring contemporary furnishings and elegant lighting. Professional photography captures every detail with perfect lighting and composition.",
-      image: "/manus-storage/portfolio-interior-1_44440848.jpg",
+      image: "/images/interior2.jpg",
       services: ["Photography", "Videography"],
       featured: true,
       isVideo: false,
@@ -28,7 +28,7 @@ export default function Portfolio() {
       title: "Luxury Exterior - Port Moody",
       category: "Photography",
       description: "Stunning exterior photography showcasing a beautiful residential property with professional landscaping. Captured during optimal lighting conditions to highlight architectural features.",
-      image: "/manus-storage/portfolio-exterior-1_a025d375.jpg",
+      image: "/images/exterior1.jpg",
       services: ["Photography"],
       featured: false,
       isVideo: false,
@@ -38,7 +38,7 @@ export default function Portfolio() {
       title: "Professional Floor Plans - Spring Street",
       category: "Floor Plans",
       description: "Detailed architectural floor plans with precise measurements and room specifications. Multi-level layout showing all rooms, dimensions, and property features.",
-      image: "/manus-storage/floorplan-1_c86fa406.jpg",
+      image: "/images/floorplan.jpg",
       services: ["Floor Plans"],
       featured: false,
       isVideo: false,
@@ -48,7 +48,7 @@ export default function Portfolio() {
       title: "Contemporary Home Design",
       category: "Photography",
       description: "Professional exterior photography of a contemporary home design. Features modern architecture, landscaping, and curb appeal captured in perfect lighting.",
-      image: "/manus-storage/portfolio-exterior-2_9e08e790.jpg",
+      image: "/images/exterior2.jpg",
       services: ["Photography"],
       featured: false,
       isVideo: false,
@@ -104,7 +104,7 @@ export default function Portfolio() {
       <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="container flex items-center justify-between h-20 gap-4 flex-wrap">
           <div className="flex items-center gap-2 min-w-0">
-            <img src="/manus-storage/artistry-media-logo-2x_6f6be184.png" alt="Artistry Media" className="h-16 w-auto" />
+            <img src="/images/logo.jpg" alt="Artistry Media" className="h-16 w-auto" />
             <div className="hidden sm:block">
               <h1 className="text-xl font-bold text-foreground">Artistry Media</h1>
               <p className="text-xs text-muted-foreground">Professional Real Estate Media</p>
