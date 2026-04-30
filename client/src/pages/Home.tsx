@@ -90,7 +90,7 @@ const portfolioItems = [
       <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="container flex items-center justify-between h-20 gap-4 flex-wrap">
           <div className="flex items-center gap-2 min-w-0">
-            <img src="/images/logo.jpg" alt="Artistry Media" className="h-16 w-auto" />
+            <img src="/images/logo2.png" alt="Artistry Media" className="h-16 w-auto" />
             <div className="hidden sm:block">
               <h1 className="text-xl font-bold text-foreground">Artistry Media</h1>
               <p className="text-xs text-muted-foreground">Professional Real Estate Media</p>
@@ -264,7 +264,7 @@ const portfolioItems = [
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <img src="/images/logo.jpg" alt="Artistry Media" className="h-12 w-auto" />
+                <img src="/images/logo2.png" alt="Artistry Media" className="h-12 w-auto" />
                 <h3 className="font-bold text-foreground">Artistry Media Inc.</h3>
               </div>
               <p className="text-sm text-muted-foreground">Professional real estate media solutions.</p>
