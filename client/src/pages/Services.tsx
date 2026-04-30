@@ -25,12 +25,12 @@ export default function Services() {
         "HDR processing for enhanced detail",
         "Fast turnaround times",
       ],
-      image: "/manus-storage/portfolio-interior-1_44440848.jpg",
+      image: "/images/interior2.jpg",
       gallery: [
-        "/manus-storage/portfolio-interior-1_44440848.jpg",
-        "/manus-storage/portfolio-interior-2_33b2d271.jpg",
-        "/manus-storage/portfolio-exterior-1_a025d375.jpg",
-        "/manus-storage/portfolio-exterior-2_9e08e790.jpg",
+        "/images/interior2.jpg",
+        "/images/interior1.jpg",
+        "/images/exterior1.jpg",
+        "/images/exterior2.jpg",
       ],
     },
     {
@@ -46,7 +46,7 @@ export default function Services() {
         "Custom editing and effects",
         "Multiple format delivery",
       ],
-      image: "/manus-storage/portfolio-exterior-1_a025d375.jpg",
+      image: "/images/exterior1.jpg",
     },
     {
       id: "floor-plans",
@@ -61,7 +61,7 @@ export default function Services() {
         "Multiple format options",
         "Quick turnaround",
       ],
-      image: "/manus-storage/floorplan-1_c86fa406.jpg",
+      image: "/images/floorplan.jpg",
     },
     {
       id: "virtual-tours",
@@ -76,7 +76,7 @@ export default function Services() {
         "Customizable branding",
         "Analytics and tracking",
       ],
-      image: "/manus-storage/portfolio-exterior-2_9e08e790.jpg",
+      image: "/images/exterior2.jpg",
     },
     {
       id: "matterport",
@@ -91,7 +91,7 @@ export default function Services() {
         "SEO optimization",
         "Lead generation tracking",
       ],
-      image: "/manus-storage/portfolio-interior-2_33b2d271.jpg",
+      image: "/images/interior1.jpg",
     },
   ];
 
@@ -101,7 +101,7 @@ export default function Services() {
       <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="container flex items-center justify-between h-20 gap-4 flex-wrap">
           <div className="flex items-center gap-2 min-w-0">
-            <img src="/manus-storage/artistry-media-logo-2x_6f6be184.png" alt="Artistry Media" className="h-16 w-auto" />
+            <img src="/images/logo.jpg" alt="Artistry Media" className="h-16 w-auto" />
             <div className="hidden sm:block">
               <h1 className="text-xl font-bold text-foreground">Artistry Media</h1>
               <p className="text-xs text-muted-foreground">Professional Real Estate Media</p>
@@ -303,7 +303,7 @@ export default function Services() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <img src="/manus-storage/artistry-media-logo-2x_6f6be184.png" alt="Artistry Media" className="h-12 w-auto" />
+                <img src="/images/logo.jpg" alt="Artistry Media" className="h-12 w-auto" />
                 <h3 className="font-bold text-foreground">Artistry Media Inc.</h3>
               </div>
               <p className="text-sm text-muted-foreground">Professional real estate media solutions.</p>
