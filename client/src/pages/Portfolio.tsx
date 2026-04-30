@@ -58,7 +58,7 @@ export default function Portfolio() {
       title: "Interior Design Showcase",
       category: "Photography",
       description: "Beautiful interior space showcasing modern design elements, lighting, and spatial layout. Professional photography highlighting the property's best features.",
-      image: "/manus-storage/portfolio-interior-2_33b2d271.jpg",
+      image: "/images/interior1.jpg",
       services: ["Photography"],
       featured: false,
       isVideo: false,
@@ -295,7 +295,7 @@ export default function Portfolio() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <img src="/manus-storage/artistry-media-logo-2x_6f6be184.png" alt="Artistry Media" className="h-12 w-auto" />
+                <img src="/images/logo.jpg" alt="Artistry Media" className="h-12 w-auto" />
                 <h3 className="font-bold text-foreground">Artistry Media Inc.</h3>
               </div>
               <p className="text-sm text-muted-foreground">Professional real estate media solutions.</p>
