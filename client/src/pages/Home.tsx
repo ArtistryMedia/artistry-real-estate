@@ -58,28 +58,28 @@ const portfolioItems = [
     id: 1,
     title: "Modern Interior - Spring Street",
     category: "Photography & Videography",
-    image: "/images/interior1.jpg",
+    image: "/client/public/images/interior1.jpg",
     featured: true,
   },
   {
     id: 2,
     title: "Luxury Exterior - Port Moody",
     category: "Photography",
-    image: "/images/exterior1.jpg",
+    image: "/client/public/images/exterior1.jpg",
     featured: false,
   },
   {
     id: 3,
     title: "Professional Floor Plans",
     category: "Floor Plans",
-    image: "/images/floorplan.jpg",
+    image: "/client/public/images/floorplan.jpg",
     featured: false,
   },
   {
     id: 4,
     title: "Contemporary Home Design",
     category: "Photography",
-    image: "/images/exterior2.jpg",
+    image: "/client/public/images/exterior2.jpg",
     featured: false,
   },
 ];
@@ -90,7 +90,7 @@ const portfolioItems = [
       <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="container flex items-center justify-between h-20 gap-4 flex-wrap">
           <div className="flex items-center gap-2 min-w-0">
-            <img src="/images/logo.jpg" alt="Artistry Media" className="h-16 w-auto" />
+            <img src="/client/public/images/logo.jpg" alt="Artistry Media" className="h-16 w-auto" />
             <div className="hidden sm:block">
               <h1 className="text-xl font-bold text-foreground">Artistry Media</h1>
               <p className="text-xs text-muted-foreground">Professional Real Estate Media</p>
@@ -118,7 +118,7 @@ const portfolioItems = [
         <div
           className="absolute inset-0 bg-cover bg-center opacity-30"
           style={{
-            backgroundImage: `url('/images/interior1.jpg')`,
+            backgroundImage: `url('/client/public/images/interior1.jpg')`,
           }}
         />
         <div className="container relative z-10">
